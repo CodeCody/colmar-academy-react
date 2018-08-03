@@ -1,0 +1,52 @@
+@media screen and (min-width: 768px) {
+
+    #campus_offerings_section h1 {
+        font-size: 4rem;
+        padding-top: 2.5rem;
+        padding-bottom: 2.5rem;
+    }
+
+    #campus_offerings_section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #cccccc;
+        margin-top: 1.5rem;
+    }
+
+    #courses {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        width: inherit;
+        margin-left: 6rem;
+        margin-right: 6rem;
+    }
+
+    .courseItem {
+        width: 30%;
+        margin-bottom: 2.5rem;
+        background-color: white;
+    }
+
+    .courseItem img {
+        width: 100%;
+    }
+
+    .courseItem h2, .courseItem p {
+        padding-left: 1.5rem;
+    }
+
+    .courseItem h2 {
+        font-size: 2rem;
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .courseItem p {
+        font-size: 1.5rem;
+
+        padding-bottom: .66rem;
+    }
+
+}

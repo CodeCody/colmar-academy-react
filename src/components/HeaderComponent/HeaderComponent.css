@@ -1,0 +1,36 @@
+header {
+    display: flex;
+
+    width: 100%;
+    height: 5.3rem;
+
+}
+
+#logodiv {
+    display: flex;
+    padding-left: 2rem;
+    flex-grow: 1;
+    font-size: 2.5rem;
+    align-items: center;
+}
+
+
+
+#headerLinks {
+    display: flex;
+    align-items: center;
+
+    padding-right: 2rem;
+}
+
+.mobileLogo {
+    display: none;
+    visibility: hidden;
+}
+
+#headerLinks a {
+  padding-left: 1rem;
+    font-size: 1.5rem;
+
+}
+

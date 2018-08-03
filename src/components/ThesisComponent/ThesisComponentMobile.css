@@ -1,0 +1,32 @@
+@media screen and (max-width: 768px) {
+
+
+    #thesis_section h1 {
+        padding-top: 2.5rem;
+        padding-bottom: 2.5rem;
+        font-size: 4rem;
+    }
+
+
+    #thesis_section {
+
+        text-align: center;
+    }
+
+    #thesis_items {
+        display: none;
+        visibility: hidden;
+    }
+
+    #thesis_video_section h3, #thesis_video_section p{
+        display: none;
+        visibility: hidden;
+
+    }
+
+    video {
+        width: 100%;
+        height: auto;
+    }
+}
+

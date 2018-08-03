@@ -1,0 +1,26 @@
+
+
+@media screen and (max-width: 768px) {
+    #headerLinks  {
+        visibility: hidden;
+        display: none;
+    }
+
+    .mobileLogo {
+        display: flex;
+        visibility: visible;
+        width: 100%;
+        justify-content: space-around;
+
+    }
+
+    #logodiv {
+        display: none;
+        visibility: hidden;
+    }
+
+    header p {
+        visibility: hidden;
+        display: none;
+    }
+}
